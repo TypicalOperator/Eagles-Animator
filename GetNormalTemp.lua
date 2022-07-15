@@ -19,14 +19,14 @@ local NormalTemp = [[
     UIS.InputBegan:connect(function(input)
 	    if input.KeyCode == Enum.KeyCode.Space then
 		             -- Jump/Fall Animation
-                     
+                     		
 	    end
     end)
     game.Players.LocalPlayer:GetMouse().KeyUp:Connect(function(key2)
         if key2 == "W" or "A" or "S" or "D" or Enum.KeyCode.Space then
             spawn(function()
                     -- Idle Animation
-
+			
                 end)
             end
         end)
